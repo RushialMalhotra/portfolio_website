@@ -3,6 +3,7 @@ const fs = require('fs')
 
 const source = "config/profile.png" // Source image(s). `string`, `buffer` or array of `string`
 
+
 const configuration = {
   path: "/", // Path for overriding default icons path. `string`
   appName: null, // Your application's name. `string`
