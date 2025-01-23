@@ -44,3 +44,4 @@ export const Nav = ({ title, links }) => {
     </nav>
   );
 }
+

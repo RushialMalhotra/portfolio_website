@@ -35,11 +35,11 @@ export const Footer = () => {
 		<footer className="bg-secondary text-center py-2 px-5">
 			<div className="container text-muted">
 				<small>&copy; 2021 {" "}
-					<Link href="https://github.com/hashirshoaeb">
-						<a>hashirshoaeb</a>
+					<Link href="https://github.com/RushialMalhotra">
+						<a>rushialmalhotra</a>
 					</Link>
-					. Open sourced with love under {" "}
-					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+					. Open sourced under {" "}
+					<Link href="https://github.com/RushialMalhotra/portfolio/blob/main/LICENSE">
 						<a>MIT</a>
 					</Link>
 					{" "} License
