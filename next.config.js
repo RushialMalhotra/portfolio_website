@@ -18,6 +18,7 @@ function getBasePath() {
   return basePath
 }
 
+
 const basePath = getBasePath()
 console.warn(
   // "Are you publishing to <username>.github.io ? then [basePath] should be empty.\n" +
