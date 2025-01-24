@@ -1,10 +1,18 @@
-const isProd = process.env.NODE_ENV === 'production'
 /*
  * Gets the BASE_PATH from the command used to start this app.
  * If BASE_PATH is specified but it does not start with a "/" 
  * then add it. 
  * https://stackoverflow.com/questions/60452054/nextjs-deploy-to-a-specific-url-path
  */
+
+const isProd = process.env.NODE_ENV === 'production';
+
+module.exports = {
+  basePath: isProd ? '/portfolio_website' : '',
+  assetPrefix: isProd ? '/portfolio_website/' : '',
+};
+
+
 function getBasePath() {
   var basePath = undefined
 
