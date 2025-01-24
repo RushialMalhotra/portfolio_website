@@ -52,3 +52,4 @@ export const About = ({ title, description }) => {
 		</div>
 	);
 }
+
