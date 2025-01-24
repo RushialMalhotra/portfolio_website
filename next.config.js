@@ -10,7 +10,13 @@ const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
   output: 'export',
   trailingSlash: true,
-  basePath: '/portfolio_website', // Change to your GitHub repo name
+  basePath: '/portfolio_website',
+  assetPrefix: '/.next',
+  env: {
+    NODE_ENV: 'development',
+  }
+
+
 };
 
 
