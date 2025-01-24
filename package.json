@@ -1,5 +1,5 @@
 {
-  "homepage": "https://RushialMalhotra.github.io/portfolio_website",
+  "homepage": "https://rushialmalhotra.github.io/portfolio_website/",
   "name": "portfolio",
   "description": "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
   "version": "0.2.0",
@@ -12,12 +12,12 @@
   },
   "scripts": {
     "prebuild": "node scripts/favicons.js",
-    "build": "next build",
+    "build": "next build && next export",
     "dev": "next dev",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next",
     "start": "next start",
     "export": "next export",
+    "deploy": "gh-pages -d out",
     "lint": "next lint"
   },
   "dependencies": {

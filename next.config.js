@@ -8,9 +8,11 @@
 const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
-  basePath: isProd ? '/portfolio_website' : '',
-  assetPrefix: isProd ? '/portfolio_website/' : '',
+  output: 'export',
+  trailingSlash: true,
+  basePath: '/portfolio_website', // Change to your GitHub repo name
 };
+
 
 
 function getBasePath() {
