@@ -3,7 +3,7 @@ const build_path = './out';
 
 const args = process.argv.slice(2);
 const username = args[0];
-const repoURL = `https://github.com/${username}/${username}.github.io.git`;
+const repoURL = `https://github.com//RushialMalhotra//portfolio_website`;
 const branch = args[1];
 
 console.log(`Deploying to ${repoURL} branch ${branch}`);
